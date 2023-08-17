@@ -1,0 +1,155 @@
+/* Estilo para el body */
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: monospace;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: row;
+  margin: 50px auto;
+  justify-content: flex-start;
+  width: 95%;
+  
+}
+
+/* Estilo para el formulario */
+form {
+  
+  
+}
+
+.select1{
+  size: 500px;
+
+}
+
+#wrapper{
+        width:500px;
+        display:flex;
+        flex-direction: column;
+    }
+    #inner1{
+        float:left; 
+        size:500px;
+    }
+    #formularioContainer{
+        float:left; 
+    } 
+
+/* Estilo para los input del formulario */
+form input[type="text"], select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 80%;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  background-color: #444;
+  color: #fff;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+#inputs {
+
+}
+
+.inputs2 {
+  padding: 30px;
+  background-color:  #191919;
+  
+}
+
+.hidden {
+  display: none;
+}
+
+#sign{
+  margin-top: 20px;
+}
+
+/* Estilo para el botón del formulario */
+form input[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e90ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Estilo para el outputdiv */
+#outputdiv {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  width: 50%;
+  margin: 50px auto;
+  border-radius: 5px;
+}
+
+/* Establecer el color de fondo y de texto del botón */
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  /*margin: 0 auto;*/
+  font-weight:  bold;
+}
+
+/* Establecer los estilos del botón al pasar el mouse por encima */
+button:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+header {
+  background-color: #222;
+  color: #fff;
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+h1 {
+  margin: 0;
+}
+
+#buttons{
+  display: flex;
+  flex-direction: row;
+  justify-items: space-between;
+}
+
+#clear {
+  background-color:  #8d4b46;
+}
+
+#clear:hover{
+  background-color:  #b56862;
+
+}
+
+.form-contenedor {
+  flex-basis: 50%;
+}
+
+#config {
+  flex-basis: 50%;
+}
+
+.green-text {
+    color: #00FF00;
+}
+.commented {
+    color: lightslategrey;
+}
+
+select {
+  font-family: Consolas, sans-serif;
+  font-size: 16px;
+  width: 85%;
+
+}
+
